@@ -21,28 +21,8 @@ class Animal():
 
 # Creating an object of our Animal class
 cat = Animal() # Stores all the data available in the Animal class into cat
+oriental_long_hair = Animal()
+
 # print(cat.eat()) # eat is now ABSTRACTED
-
-### Inheritance ###
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+oriental_long_hair.lungs = False # Polymorphism. Override the value of lungs
+print(oriental_long_hair.lungs)
