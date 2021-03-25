@@ -6,8 +6,8 @@ class Python(Snake):
     def __init__(self):
         super().__init__()
         self.large = True
-        two_lungs = True
-        venom = False
+        self.two_lungs = True
+        self.venom = False
 
     def climb(self):
         return "up we go!"
@@ -29,6 +29,7 @@ print(python_object.breath()) # from Animal class
 
 # Polymorphism
 print(python_object.use_venom())
+print(python_object.venom)
 
 
 
