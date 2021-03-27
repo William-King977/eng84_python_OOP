@@ -39,10 +39,10 @@ accessed.
 
 ### Inheritance
 Inheritance is when a class inherits attributes and methods 
-from a parent class. For example, there is an Animal class,
+from a parent class. For example, there is an `Animal` class,
 and the subclasses include cats, dogs, and sharks. Those
 subclasses will share the same attributes and methods from
-the Animal class.
+the `Animal` class.
 
 The main benefit of inheritance is that it saves you time 
 from needing to retype the methods and attributes from 
@@ -54,7 +54,7 @@ same thing takes on many forms. This occurs during
 inheritance when the subclasses override the attributes or
 methods with their own behaviours.
 
-For example, with a Snake class, a python can inherit from
+For example, with a `Snake` class, a python can inherit from
 a snake and share the attributes and methods, such as 
 `is_venomous` and `use_venom()`. In this case, because a
 python is not venomous, these can be overridden to have
